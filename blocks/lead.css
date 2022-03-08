@@ -1,0 +1,29 @@
+.lead {
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+.lead__title {
+  margin: 0 auto;
+  max-width: 793px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  margin: 32px 132px 64px 132px;
+  max-width: 720px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  filter: grayscale();
+}
