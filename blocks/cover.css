@@ -50,6 +50,10 @@
   text-align: center;
 }
 
+.cover__subtitle-paragraph {
+  display: block;
+}
+
 .cover__button {
   margin-bottom: 243px;
   padding: 13px 20px;

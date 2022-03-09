@@ -61,4 +61,9 @@
   background: #0278fe;
   border-radius: 4px;
   color: #fff;
+  transition-duration: 1s;
+}
+
+.place__button:hover {
+  background: #0063d2;
 }
