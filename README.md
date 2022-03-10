@@ -3,6 +3,7 @@
 ### Overview
 
 - Intro
+- Project features
 - Figma
 - GitHub Pages
 
