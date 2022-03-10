@@ -55,14 +55,60 @@
 }
 
 .cover__button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
   margin-bottom: 243px;
   padding: 13px 20px;
   background: #0278fe;
   border-radius: 4px;
   color: #fff;
   transition-duration: 1s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .cover__button:hover {
   background: #0063d2;
+}
+
+@media screen and (max-width: 960px) {
+  .cover {
+    max-width: 768px;
+    min-height: 746px;
+  }
+
+  .cover__title {
+    margin-top: 246px;
+  }
+
+  .cover__button {
+    margin-bottom: 246px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    max-width: 320px;
+    min-height: 254px;
+  }
+
+  .cover__title {
+    margin-top: 46px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 35px;
+    color: #fff;
+  }
+
+  .cover__subtitle {
+    margin-bottom: 16px;
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .cover__button {
+    margin-bottom: 45px;
+  }
 }
