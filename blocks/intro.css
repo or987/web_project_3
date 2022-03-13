@@ -12,8 +12,6 @@
 }
 
 .intro__quote {
-  quotes: none;
-  display: block;
   margin-right: 65px;
   font-size: 24px;
   line-height: 34px;
@@ -81,6 +79,5 @@
 
   .intro__description {
     width: 100%;
-    margin: 0 auto;
   }
 }
