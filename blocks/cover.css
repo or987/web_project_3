@@ -30,6 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 92px;
 }
 
 .cover__title {
@@ -87,6 +88,10 @@
   .cover {
     width: 100%;
     min-height: 254px;
+  }
+
+  .cover__content {
+    margin-top: 64px;
   }
 
   .cover__title {
